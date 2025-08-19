@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>table</title>
+    <title>rowpas</title>
+    <style>
+        table,th,td {
+            border: 8px solid black;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
     <table>
-        <caption>
-            student details column headings
-        </caption>
-        
+        <tr>
+            <th>program</th>
+            <th>status</th>
+            <th>student name</th>
+        </tr>
+        <tr>
+            <td rowspan="2">java</td>
+            <td>pending</td>
+            <td>meena</td>
+        </tr>
+        <tr>
+        <td>completed</td>
+        <td>meena</td>
+        </tr>
+        <tr>
+            <td rowspan="2">html</td>
+            <td>pending</td>
+            <td>meena</td>s
+        </tr>
     </table>
 </body>
 </html>
