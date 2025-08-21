@@ -1,0 +1,17 @@
+.main-container {
+    display: flex;
+    height: 1000px;
+    background-color: blue;
+      flex-direction: row-reverse;
+       
+}
+.a-container {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(22, 193, 193);
+}
+.b-container {
+    height: 500px;
+    width: 500px;
+    background-color: brown;
+}
