@@ -193,10 +193,17 @@ footer {
   justify-content: space-around;
   height: 500px;
   align-items: center;
+
 }
 
 .logo-section {
   width: 300px;
+  p {
+    margin-bottom: 20px;
+  }
+  i {
+    color: orange;
+  }
 }
 
 .user-link {

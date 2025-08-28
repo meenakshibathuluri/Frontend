@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.happy {
+    h1 {
+      display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: red;
+    font-weight: bold;
+    font-size: 50px;
+    }
+    h2 {
+        display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: gold;
+    font-weight: bolder;
+    font-size: 40px;
+}
+   h3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: rgb(62, 22, 221);
+    font-size: 30px;
+}
+   }
+.image {
+    background-image: url("https://i.pinimg.com/736x/dc/d9/c2/dcd9c235da6c0fd9c6661f1f2bbd83d0.jpg");
+    height:550px;
+    width: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.style {
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: centeer;
+}    
