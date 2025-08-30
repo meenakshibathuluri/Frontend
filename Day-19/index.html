@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>items</title>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-     <div class="header">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
       <div>
-        <img src="logo.png" alt="Logo"/>
+        <img src="logo.png" alt="Logo" />
       </div>
       <div>
         <ul class="nav-items">
+          <a href="#home">
           <li class="first-listitem">Home</li>
+          </a>
+          <a href="#menu">
           <li class="list-item">Menu</li>
+          </a>
           <li class="list-item">Orders</li>
           <li class="list-item">Shop</li>
           <li class="list-item">Contact</li>
         </ul>
       </div>
     </div>
-    <div class="hero-section">
+
+    <div class="hero-section" id="home">
       <div>
         <h1 class="title">
           The Fastest Delivery In <span class="city">Your City</span>
@@ -34,10 +38,13 @@
         </p>
         <button class="order-btn">Order Now</button>
       </div>
+
       <div>
         <img src="food.item.png" alt="hero-section-images" />
       </div>
-      <div class="timings">
+    </div>
+
+    <div class="timings">
       <div>
         <h3>Today 10:00am - 10:00pm</h3>
         <p class="description">Working Time</p>
@@ -51,7 +58,8 @@
         <p class="description">Phone Number</p>
       </div>
     </div>
-    <div class="content-section">
+
+    <div class="content-section" id="menu">
       <h1 class="menu">Menu</h1>
       <div class="menu-items">
         <div class="item">
@@ -101,7 +109,7 @@
         <div class="item">
           <img
             src="enchilade.png"
-            alt="Enchilade"
+            alt="enchilade"
             class="item-image"
           />
           <h2 class="item-name">Enchilade</h2>
@@ -127,6 +135,7 @@
         <button class="see-all-menu">See all Menu</button>
       </div>
     </div>
+
     <div class="subscribe">
       <div>
         <img
@@ -142,10 +151,10 @@
           mauris sem sed urna venenatis vivamus. Egestas in velit nulla viverra
           turpis id ac. Amet faucibus tempus.
         </p>
-       
         <button>SUBSCRIBE</button>
       </div>
     </div>
+
     <footer>
       <div class="logo-section">
         <img src="logo.png" alt="logo" />
@@ -153,12 +162,6 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo
           libero viverra dap..
         </p>
-         <a>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-twitter"></i>
-          <i class="fa-brands fa-linkedin-in"></i>
-          <i class="fa-brands fa-instagram"></i>
-        </a>
       </div>
       <div class="user-link">
         <h1>User Link</h1>
@@ -177,6 +180,5 @@
         <p>+0123 456 7891</p>
       </div>
     </footer>
-    </div>
-</body>
+  </body>
 </html>
