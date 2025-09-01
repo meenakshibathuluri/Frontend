@@ -1,67 +1,109 @@
-* {
-    margin: 0px;
+
+*{
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
-.Article {
+.heading{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 35px;
+}
+.main-container{
     display: flex;
-    align-items: flex-start;
-    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.starting-para{
+    font-size: 19px;
+    margin-left: 15px;
+}
+.left-container{
+    display: flex;
     justify-content: space-around;
-    font-size: 20px;
-}
-.a:hover {
-     color: black;
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 140px;
     cursor: pointer;
 }
-.b:hover {
-    color: blue;
-    cursor: pointer;
-}
-.nav-items {
-  width: 600px;
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin: 25px 80px;
-}
-.nav-items {
-  li {
-    font-weight: bold;
-    font-size: 20px;
-  }
-}
-.first-listitem {
-  color: blue;
-}
-.first-listitem:hover {
-  color: blue;
-  cursor: pointer;
-}
-.items:hover {
-  color: blue;
-  cursor: pointer;
-}
-.h5 {
-    font-weight: bolder;
-    font-size: 20px;
-    margin-bottom: 10px;
-}
-.paragraph {
-    width: 40px;
-    align-items: flex-start;
+.article{
     font-size: 20px;
 }
-.h4 {
-    font-size: 30px;
+.talk{
+    font-size: 20px;
+    color: #3366cc
+}
+.talk:hover{
     color: black;
 }
-.early {
-  margin-top: 20px;
-  font-size: 20px;
-  
+.right-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    width: 400px;
+    cursor: pointer;
+}
+.read{
+    font-size: 20px;
+}
+.view-source{
+    font-size: 20px;
+    color: #3366cc;
+}
+.view-source:hover{
+    color: black;
+}
+.view-history{
+    font-size: 20px;
+    color: #3366cc;
+}
+.view-history:hover{
+    color: black;
+}
+.tools{
+    font-size: 20px;
+}
+.para{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.span{
+    margin-left: 70px;
+}
+.heading-2{
+    margin-top: 30px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+}
+.para-two{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.table{
+    border: 1px solid black;
+    width: 420px;
+    height: 800px;
+    margin-top: 80px;
+}
+/*.table-heading{
+    margin-top: 100px;
+}*/
+.hero-image{
+        width: 280px;
+        height: 300px;
+        margin-left: 75px;
+        display: flex;
+        
+        flex-direction: row;
+        justify-content: flex-start;
+       /* margin-bottom: 450px; */
+    
+    }
+.concatinate{
+    display: flex;
+    justify-content: space-around;
 }
