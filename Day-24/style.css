@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container {
+   background-color:white;
+   height: 100vh;
+   display: grid;
+   grid-template-columns: 2fr 5fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
+    gap: 10px;
+}
+.header, .footer {
+    background-color: yellow;
+    grid-column: 1 /span 3;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.Nav, .article ,.adds {
+    background-color: yellow;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}

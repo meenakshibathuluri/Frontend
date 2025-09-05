@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main-container {
+    height: 100vh;
+    display: grid;
+     grid-template-columns: 1fr 4fr;
+     grid-template-rows: 1fr 3fr 1fr 1fr;
+     gap: 10px;
+}     
+.nav {
+     background-color: green;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: grid;
+    grid-row: 1 /span 4;
+}
+.header, .ads, .footer {
+     background-color: green;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+.article {
+     background-color: green;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
