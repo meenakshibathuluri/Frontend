@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 50vh;
+}
+
+.first {
+  background-image: url("images/fristImage.jpeg");
+  object-fit: cover;
+  background-size: 450px;
+}
+
+.second {
+  background-image: url("images/secondImage.jpeg");
+  object-fit: cover;
+  background-size: 450px;
+}
+
+.third {
+  background-image: url("images/thridImage.jpeg");
+  object-fit: cover;
+  background-size: 450px;
+}
+
+.fourth {
+  background-image: url("images/fouthImage.jpeg");
+  object-fit: cover;
+  background-size: 450px;
+}
+
+.adventure {
+  grid-row: 1 / span1;
+  margin-top: -350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

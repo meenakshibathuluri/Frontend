@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main-container {
+    background-color: rgb(232, 184, 189);
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+content {
+  width: 600px;
+  text-align: center;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  width: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: darkorange;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+p {
+  margin-bottom: 15px;
+}
