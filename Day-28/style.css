@@ -24,7 +24,7 @@ body {
 
 h1 {
   grid-column: 1 / span 2;
-  background-color: #778692;
+  color: #778692;
   text-align: center;
   font-size: 60px;
 }
