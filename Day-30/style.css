@@ -45,19 +45,19 @@
 }
 .sweets-section {
     background-image: url("images/backGroundImage1.jpg");
-    height: 500px;
+    height: 650px;
     background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 60px;
 }
 .sweet-heading {
     color: white;
 }
-.sweets-items-container {
+.sweet-items-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
@@ -68,7 +68,7 @@
     width: 300px;
     padding: 30px;
 }
-.item-list {
+.items-list {
     list-style: none;
     li {
         line-height: 30px;
@@ -136,7 +136,6 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    margin-bottom: 200px;
     opacity: 0.9;
     color: white;
     display: flex;
@@ -164,6 +163,7 @@
     width: 130px;
     border: none;
     font-size: large;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 .Subscribe-para {
