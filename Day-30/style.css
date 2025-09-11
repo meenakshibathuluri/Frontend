@@ -169,3 +169,38 @@
 .Subscribe-para {
     font-size: 20px;
 }
+.footer-section {
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.footer-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.footer-title {
+    margin-bottom: 20px;
+}
+.footer-items-list {
+    li {
+        list-style: none;
+        line-height: 30px;
+        font-size: 12px;
+    }
+}
+.send-message {
+     background-color: #e2781a;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    font-weight: bold;
+}
+
