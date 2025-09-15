@@ -185,10 +185,13 @@
     color: orange;
     background-color: white;
 }
+<<<<<<< HEAD
 .Subscribe-para {
     font-size: 15px;
     font-weight: bolder;
 }    
+=======
+>>>>>>> 282b81a26b1e177dcf93ed4588880c2abe2c6b05
 .footer-section {
     background-color: black;
     color: white;
@@ -213,11 +216,14 @@
         line-height: 30px;
         font-size: 12px;
     }
+<<<<<<< HEAD
     li:hover {
         cursor: pointer;
         color: #e2781a;
         text-decoration: underline;
     }
+=======
+>>>>>>> 282b81a26b1e177dcf93ed4588880c2abe2c6b05
 }
 .send-message {
      background-color: #e2781a;
@@ -228,6 +234,7 @@
     border: none;
     font-weight: bold;
 }
+<<<<<<< HEAD
 .social-media-links {
     color: #e2781a;
     fill:#e2781a;
@@ -239,3 +246,6 @@
        padding-right: 20px;
     }
 }
+=======
+
+>>>>>>> 282b81a26b1e177dcf93ed4588880c2abe2c6b05
