@@ -23,9 +23,11 @@
 }
 .hero-heading {
     margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
 }
 .hero-para {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 25px;
     margin-bottom: 40px;
 }
@@ -54,8 +56,10 @@
     flex-direction: column;
     gap: 60px;
 }
-.sweet-heading {
+.sweets-heading {
     color: white;
+    font-size: 70px;
+    font-weight: bold;
 }
 .sweet-items-container {
     display: grid;
@@ -65,23 +69,30 @@
 .sweet-item {
     background-color: white;
     border-radius: 15px;
-    width: 300px;
+    width: 350px;
     padding: 30px;
+    height: 250px;
 }
 .items-list {
     list-style: none;
     li {
         line-height: 30px;
+        font-size: 20px;
     }
 } 
 .our-bread-section {
     background-color: #e8b284;
-    height: 1150px;
+    height: 1300px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+}
+.our-bread {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -60px;
 }
 .our-bread-container {
     display: grid;
@@ -90,36 +101,40 @@
     gap: 10px;
 }
 .bread-item {
-    width: 300px;
+    width: 400px;
     background-color: white;
     padding: 20px;
 }
 .bread-item-image {
-    height: 200px;
-    width: 250px;
+    height: 230px;
+    width: 300px;
     border-radius: 20px;
     margin-bottom: 15px;
+   margin-left: 30px;
 }
 .item-name {
     margin-bottom: 10px;
+    font-size: 30px;
 }
 .item-price {
     color: orange;
     margin-bottom: 10px;
+    font-size: 25px;
 }
-.item-description {
-    font-size: 14px;
+.item-drecription {
+    font-size: 20px;
     font-style: italic;
     margin-bottom: 15px;
 }
 .add-to-cart {
     background-color: black;
     color: white;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: bold;
     padding: 5px;
-    width: 120px;
-    border-radius: 15px;
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 }
 .item-name:hover {
     cursor: pointer;
@@ -131,8 +146,8 @@
     cursor: pointer;
 }
 .Subscribe-section {
-    background-image: url("images/backGroundImage1.jpg");
-    height: 900px;
+    background-image: url("images/subscribeBackground.jpg");
+    height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
@@ -149,13 +164,13 @@
 .Subscribe-heading1 {
     font-weight: bold;
     margin-bottom: 20px;
-   font-size: 40px;
+   font-size: 35px;
 }
 .Subscribe-heading2 {
     margin-bottom: 20px;
     line-height: 30px;
 }
-.Subscribe-button {
+.subscribe-button {
     background-color: #e2781a;
     color: white;
     border-radius: 30px;
@@ -166,9 +181,14 @@
     font-weight: bold;
     margin-bottom: 20px;
 }
-.Subscribe-para {
-    font-size: 20px;
+.subscribe-button:hover {
+    color: orange;
+    background-color: white;
 }
+.Subscribe-para {
+    font-size: 15px;
+    font-weight: bolder;
+}    
 .footer-section {
     background-color: black;
     color: white;
@@ -193,6 +213,11 @@
         line-height: 30px;
         font-size: 12px;
     }
+    li:hover {
+        cursor: pointer;
+        color: #e2781a;
+        text-decoration: underline;
+    }
 }
 .send-message {
      background-color: #e2781a;
@@ -202,4 +227,15 @@
     width: 200px;
     border: none;
     font-weight: bold;
+}
+.social-media-links {
+    color: #e2781a;
+    fill:#e2781a;
+}
+.phone-icon {
+    i{
+       color: #e2781a;
+       fill:#e2781a;
+       padding-right: 20px;
+    }
 }
