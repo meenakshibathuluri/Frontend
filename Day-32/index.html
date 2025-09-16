@@ -9,28 +9,26 @@
 <body>
     <div class="student-form">
         <h1>Student Details</h1>
-        <from>
-            <label>Frist Name</label>
-            <input type="text" placeholder="meena" value="Rock" />
+        <from action="https://www.youtube.com">
+            <label for="first-name">Frist Name</label>
+            <input type="text" placeholder="meena" value="Rock"  name="fname" id="first-name" required/>
             <br/>
             <br/>
-            <label>Last Name</label>
-            <input type="text" placeholder="doe" value="Star" />
+            <label for="Last-name">Last Name</label>
+            <input type="text" placeholder="doe" value="Star" name="lname" id="Last-name" required/>
             <br/>
             <br/>
-            <input type="email"
-                 placeholder="abc@gamil.com"
-                 value="rock@gamil.com"
-             />
+            <label for="email">Email</label>
+            <input type="email" placeholder="abc@gamil.com" value="rock@gamil.com" name="email" id="email" required />
              <br/>
             <br/>
             <p>Select the gender</p>  
-            <input type="radio" id="female" name="gender" value="female" class="gender" />
-            <label>Female</label>
-             <input type="radio" id="male" name="gender" value="male" class="gender" />
-            <label>Male</label>
-             <input type="radio" id="other" name="gender" value="other" class="gender"/>
-            <label>Other</label>
+            <input type="radio" id="female" name="gender" value="female" class="gender"required />
+            <label for="female">Female</label>
+             <input type="radio" id="male" name="gender" value="male" class="gender" required/>
+            <label for="male">Male</label>
+             <input type="radio" id="other" name="gender" value="other" class="gender" required/>
+            <label for="other">Other</label>
              <br/>
             <br/>
             <input type="submit" value="Student-Details" class="submit"/>
