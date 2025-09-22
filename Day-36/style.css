@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100px;
+    width: 100px;
+    background-color: rgba(185, 185, 185, 0.358);
+}
+form {
+    background-color: white;
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.longin {
+    margin-bottom: 20px;
+}
+.email,.password {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+.Login-Account {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.forgot-password {
+    color: orangered;
+    font-size: 10px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.account {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.Create-account {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    color: orangered;
+    border: 1px solid orangered;
+    font-weight: bold;
+    background-color: white;
+}
+.frist-container {
+    margin-top: 100px;
+    margin-left: 200px;
+}
