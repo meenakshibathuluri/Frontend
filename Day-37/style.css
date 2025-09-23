@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -19,18 +19,26 @@ form {
     flex-direction: column;
     align-items: center;
 }
-.longin {
-    margin-bottom: 20px;
-}
-.email,.password {
+.full-name, .email {
     width: 300px;
     height: 30px;
     margin-bottom: 20px;
-    border-radius: 50px;
+    border-radius: 30px;
     border: 1px solid lightgray;
     padding-left: 10paix;
 }
-.Login-Account {
+.your-message {
+    height: 120px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    padding-left: 10paix;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.send-message {
     width: 200px;
     height: 30px;
     margin-bottom: 20px;
@@ -39,26 +47,6 @@ form {
     border: none;
     color: white;
     font-weight: bold;
-}
-.forgot-password {
-    color: orangered;
-    font-size: 14px;
-    text-decoration: underline;
-    margin-bottom: 15px;
-}
-.account {
-    font-size: 13px;
-    margin-bottom: 15px;
-}
-.Create-account {
-    width: 250px;
-    height: 30px;
-    margin-bottom: 20px;
-    border-radius: 50px;
-    color: orangered;
-    border: 1px solid orangered;
-    font-weight: bold;
-    background-color: white;
 }
 .frist-container {
     margin-top: 100px;
