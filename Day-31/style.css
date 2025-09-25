@@ -362,3 +362,60 @@
   margin-left: -160px;
   margin-bottom: 20px;
 }
+.fouthImage {
+  height: 550px;
+  width: 500px;
+  margin-left: 250px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+.contianer {
+  background-color: #faf1ec;
+  height: 650px;
+  width: 100%;
+}
+.contact-us {
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  i {
+    font-size: 25px;
+  }
+  
+} 
+.full-name, .email {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: 1px solid lightgray;
+    padding-left: 10paix;
+}
+.your-message {
+    height: 120px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    padding-left: 10paix;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.submit {
+  border: 1px solid black;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.submit:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
