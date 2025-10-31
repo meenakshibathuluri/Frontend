@@ -1,0 +1,55 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.nav-items {
+  width: 600px;
+  list-style: none;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 80px;
+}
+.logo {
+    height: 200px;
+    width: 200px;
+     margin: 30px;
+}
+.home {
+    background-color: red;
+    width: 500px;
+    height: 150px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.menu {
+    background-color: wheat;
+    width: 500px;
+    height: 150px;
+    margin-right: 40px;
+}
+.orders {
+    background-color: indianred;
+    width: 500px;
+    height: 150px;
+    margin-right: 40px;
+}
+.time {
+     background-color: rgb(42, 20, 184);
+    width: 500px;
+    height: 150px;
+    margin-right: 40px;
+}
+.contact {
+     background-color: yellowgreen;
+    width: 500px;
+    height: 150px;
+    margin-right: 40px;
+}
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
