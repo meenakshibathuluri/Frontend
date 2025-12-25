@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 30px;
+    color: red;
+}
+.pages {
+    margin-top: 50px;
+    margin-left: 30%;
+    height: 400px;
+    width: 40%;
+}
+h3 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 30px;
+    color: red; 
+}
