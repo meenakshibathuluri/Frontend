@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Toggle</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 250px;
+        }
+        button {
+            padding: 20px 34px;
+            font-size: 20px;
+            border-color: black;
+            border-radius: 8px;
+            cursor: pointer;
+            background-color: red;
+            color: rgba(46, 29, 43, 0.951);
+            margin-top: 200px;
+             margin-left: -300px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        p {
+            padding-top: 80px;
+            margin-left: -300px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Theme Toggle Demo</h1>
+    <p>Click the button to change the webpage background color.</p>
+    <button id="themeButton">Change Theme</button>
+
+    <script>
+        const themeButton = document.getElementById('themeButton');
+        const body = document.body;
+
+        themeBtn.addEventListener('click', function() {
+            body.classList.toggle('dark-theme');
+        
+            if (body.classList.contains('dark-theme')) {
+                themeButton.textContent = 'Light Theme';
+            } else {
+                themeButton.textContent = 'Dark Theme';
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    
+    <form novalidate>
+        <label for="fullName">Full Name*:</label>
+        <input type="text" id="fullName" name="fullName" maxlength="50" pattern="[a-z]{26}">
+
+        <label for="email">Email*:</label>
+        <input type="email" id="email" name="email" required maxlength="100">
+
+        <label for="phone">Phone Number*:</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" maxlength="10" >
+
+        <fieldset>
+            <legend>Experience (Years)*:</legend>
+            <label><input type="radio" name="experience" value="0-2" required> 0-2 years</label>
+            <label><input type="radio" name="experience" value="3-5"> 3-5 years</label>
+            <label><input type="radio" name="experience" value="6+"> 6+ years</label>
+        </fieldset>
+
+        <label for="coverLetter">Cover Letter*:</label>
+        <textarea id="coverLetter" name="coverLetter" required minlength="50" maxlength="1000" 
+                  rows="6" placeholder="Tell us why you're a great fit (min 50 chars)"></textarea>
+
+        <label for="position">Position*:</label>
+        <select id="position" name="position" required>
+            <option value="">Select position</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="fullstack">Fullstack Developer</option>
+        </select>
+
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>
