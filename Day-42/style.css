@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+p {
+      font-size: 40px;
+}
+.ordered {
+    font-size: 40px;
+    color: brown;
+    margin-top: 40px;
+}
+.unordered {
+    color: green;
+    font-size: 40px;
+     margin-top: 40px;
+}
+.list {
+    font-size: 20px;
+    color: green;
+}
+li {
+    font-size: 20px;
+    color: rgb(158, 5, 122); 
+}
