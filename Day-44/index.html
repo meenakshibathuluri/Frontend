@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BrightStart Solutions - Small Business Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header and navigation -->
+  <header class="site-header" id="home">
+    <div class="container header-content">
+      <div class="logo">BrightStart<span>Solutions</span></div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" aria-label="Toggle navigation">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Helping your small business grow faster</h1>
+          <p>
+            BrightStart Solutions offers modern websites, branding, and digital
+            marketing tailored for local businesses.
+          </p>
+          <a href="#contact" class="btn primary-btn">Get a free quote</a>
+        </div>
+        <div class="hero-image">
+          <!-- Optimized responsive image -->
+          <img
+            src="images/office-600.jpg"
+            srcset="
+              images/office-400.jpg 400w,
+              images/office-600.jpg 600w,
+              images/office-900.jpg 900w
+            "
+            sizes="(max-width: 768px) 100vw, 50vw"
+            alt="Team working in a small business office"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+      <div class="container">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon">💻</div>
+            <h3>Website Design</h3>
+            <p>Clean, responsive websites that make your business look professional.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">🎯</div>
+            <h3>Digital Marketing</h3>
+            <p>Local SEO and campaigns to bring more customers to your door.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">📊</div>
+            <h3>Brand Strategy</h3>
+            <p>Brand identity and messaging that tells your story clearly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <div class="container about-content">
+        <div class="about-text">
+          <h2>About Us</h2>
+          <p>
+            BrightStart Solutions is a small team based in your city, focused on
+            helping local businesses get online and grow.
+          </p>
+          <p>
+            From the first idea to launch, we guide you through every step and
+            keep things simple and transparent.
+          </p>
+        </div>
+        <div class="about-image">
+          <img
+            src="images/team-400.jpg"
+            srcset="
+              images/team-300.jpg 300w,
+              images/team-400.jpg 400w,
+              images/team-600.jpg 600w
+            "
+            sizes="(max-width: 768px) 100vw, 40vw"
+            alt="BrightStart Solutions team"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <div class="container contact-content">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>Tell us about your business and we will get back within one working day.</p>
+          <ul>
+            <li><strong>Phone:</strong> +91-98765-43210</li>
+            <li><strong>Email:</strong> hello@brightstart.com</li>
+            <li><strong>Address:</strong> MG Road, Bengaluru, Karnataka</li>
+          </ul>
+        </div>
+        <div class="contact-form-wrapper">
+          <form id="contactForm" novalidate>
+            <div class="field-group">
+              <label for="name">Name*</label>
+              <input type="text" id="name" name="name" required />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="field-group">
+              <label for="email">Email*</label>
+              <input type="email" id="email" name="email" required />
+              <small class="error-message"></small>
+            </div>
+
+            <div class="field-group">
+              <label for="message">Message*</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <small class="error-message"></small>
+            </div>
+
+            <button type="submit" class="btn primary-btn">Send message</button>
+            <p id="formStatus" class="form-status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 BrightStart Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
