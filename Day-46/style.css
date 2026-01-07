@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+}
+.color {
+    height: 350px;
+    width: 120px;
+    background-color: black;
+    padding-top: 40px;
+}
+.red {
+    border-radius: 50%;
+    background-color: red;
+    height: 100px;
+    width: 100px; 
+    padding-left: 70px;
+}
+.green {
+      border-radius: 50%;
+    background-color: green;
+    height: 100px;
+    width: 100px; 
+    padding-bottom: 70px;
+}
+.yellow {
+    border-radius: 50%;
+    background-color: yellow;
+    height: 100px;
+    width: 100px; 
+      padding-bottom: 40px;
+}
