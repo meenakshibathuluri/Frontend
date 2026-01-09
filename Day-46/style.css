@@ -16,7 +16,6 @@ body {
     padding-top: 40px;
 }
 .red {
-    red {
     border-radius: 50%;
     background-color: red;
     height: 100px;
@@ -36,5 +35,4 @@ body {
     height: 100px;
     width: 100px; 
       padding-bottom: 40px;
-}
 }
