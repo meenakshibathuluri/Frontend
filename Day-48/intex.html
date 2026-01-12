@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library structure</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <h1 class="wel">Library</h1>
+        </div>
+      <div>
+        <ul class="nav-items">
+          <a href="#home">
+          <li class="first-listitem">Home</li>
+          </a>
+          <a href="#menu">
+          <li class="list-item">About</li>
+          </a>
+          <li class="list-item">Contact</li>
+        </ul>
+      </div>
+    </div>
+     <h1 class="welcome">welcome to Library structure</h1>
+     <div>
+        <h1>About central Libraries</h1>
+        <p>The library operations such as circulation section, cataloguing section are fully automated using 
+            SOUL 2.0 ILMS software developed by INFLIBINET, Ahmedabad.
+        </p>
+        <img src="images/library1.webp" alt="library1"  class="library"/>
+        <img src="images/system.jpg"alt="system" class="library1"/>
+        <img src="images/discussion.jpeg" alt="discussion" class="library2">
+        <img src="images/placements.jpg" alt="placements" class="library3">
+        <img src="images/group.jpg" alt="group" class="library4">
+     </div>
+     <div>
+        <form>
+            <h1>Registration from</h1>
+                <input type="text" placeholder="Enter your Name" required name="Enter your Name" class="full-name"/>
+                <input type="number" placeholder="roll number" required name="enter the roll number" class="roll-number" />
+                <input type="text" placeholder="Enter your message" required name="Email your message" class="message"/>
+                <input type="submit" value="SUBMIT" class="submit"/>
+        </form>
+     </div>
+     <script>
+        function scrollToAbout() {
+    document.getElementById("about")
+    .scrollIntoView({behavior:"smooth"});
+}
+     </script>
+</body>
+</html>
