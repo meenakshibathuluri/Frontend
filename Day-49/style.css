@@ -3,35 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
-.main-container {
-    height: 90vh;
-    width: 95vw;
-    border: 2px solid black;
-    margin: 10px;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+
+body {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 50px;
 }
-.header {
-    height: 150px;
-    width: 100%;
-    border: 1px solid black;
+.card-container {
+width: 300px;
+height: 350px;
+border-radius: 10px;
+}
+.image {
+height: 250px;
+width: 300px;
+border-radius: 10px;
 }
 .sub-container {
-    height: 100%;
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid black;
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
 }
-.ads {
-    height: 30%;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-}
-.nav {
-    height: 70%;
-    border: 1px solid black;
+.resturant-container {
+display: flex;
+gap: 40px;
+justify-content: center;
+width: 980px;
+flex-wrap: wrap;
 }
