@@ -65,7 +65,7 @@
 }
 .sweets-section {
     background-image: url("image/background2.jpeg");
-    height: 650px;
+    height: 650px; 
     background-size: cover;
     background-position: center;
     display: flex;
