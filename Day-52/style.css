@@ -65,7 +65,7 @@
 }
 .sweets-section {
     background-image: url("image/background2.jpeg");
-    height: 650px; 
+    height: 500px; 
     background-size: cover;
     background-position: center;
     display: flex;
@@ -73,6 +73,7 @@
     align-items: center;
     flex-direction: column;
     gap: 60px;
+    width: 100vw;
 }
 .sweets-heading {
     color: white;
@@ -97,4 +98,60 @@
         line-height: 30px;
         font-size: 20px;
     }
+}
+.bread-section {
+    background-color: #e8b284;
+    height: 1300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.bread-heading {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -60px;
+}
+.bread-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 10px;
+}
+.bread-item {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+}
+.bread-image {
+    height: 230px;
+    width: 300px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+   margin-left: 30px;
+}
+.bread-name {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.bread-price {
+    color: orange;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.bread-drecription {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.add-to-cart {
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 10px;
 } 
