@@ -1,43 +1,25 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-.logo {
-  height: 70px;   
-  width: 140px; 
-  padding-left: 20px;
-}
-.header-items {
-    display: flex;
-    gap: 30px;
-    list-style: none;
-}
-.icons {
-    display: flex;
-    gap: 30px;
-}
 .hero-section {
-    height: 500px;
-    width: 100vw;
-    background-image: url("image/background1.jpeg");
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .hero-image {
-    height: 500px;
-    width: 500px;
-
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .hero-left-content {
-    width: 40%;
-    margin-left: 20%;
+    background-color: #fef7e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 3px 10px 20px;
+    text-align: center;
 }
 .hero-heading {
     margin-bottom: 20px;
@@ -64,8 +46,8 @@
 
 }
 .sweets-section {
-    background-image: url("image/background2.jpeg");
-    height: 500px; 
+    background-image: url("images/backGroundImage1.jpg");
+    height: 650px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -73,7 +55,6 @@
     align-items: center;
     flex-direction: column;
     gap: 60px;
-    width: 100vw;
 }
 .sweets-heading {
     color: white;
@@ -98,8 +79,8 @@
         line-height: 30px;
         font-size: 20px;
     }
-}
-.bread-section {
+} 
+.our-bread-section {
     background-color: #e8b284;
     height: 1300px;
     display: flex;
@@ -108,12 +89,12 @@
     justify-content: center;
     gap: 40px;
 }
-.bread-heading {
+.our-bread {
     font-size: 50px;
     font-weight: bolder;
     margin-top: -60px;
 }
-.bread-container {
+.our-bread-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 2fr;
@@ -124,23 +105,23 @@
     background-color: white;
     padding: 20px;
 }
-.bread-image {
+.bread-item-image {
     height: 230px;
     width: 300px;
     border-radius: 20px;
     margin-bottom: 15px;
    margin-left: 30px;
 }
-.bread-name {
+.item-name {
     margin-bottom: 10px;
     font-size: 30px;
 }
-.bread-price {
+.item-price {
     color: orange;
     margin-bottom: 10px;
     font-size: 25px;
 }
-.bread-drecription {
+.item-drecription {
     font-size: 20px;
     font-style: italic;
     margin-bottom: 15px;
@@ -154,7 +135,7 @@
     width: 150px;
     border-radius: 20px;
     margin-bottom: 10px;
-} 
+}
 .item-name:hover {
     cursor: pointer;
 }
@@ -165,11 +146,12 @@
     cursor: pointer;
 }
 .Subscribe-section {
-    background-image: url("image/subscribeBackground.jpg");
+    background-image: url("images/subscribeBackground.jpg");
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
+    opacity: 0.9;
     color: white;
     display: flex;
     justify-content: center;
