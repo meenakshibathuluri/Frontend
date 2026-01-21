@@ -155,3 +155,55 @@
     border-radius: 20px;
     margin-bottom: 10px;
 } 
+.item-name:hover {
+    cursor: pointer;
+}
+.add-to-cart:hover {
+    cursor: pointer;
+}
+.bread-item-image:hover {
+    cursor: pointer;
+}
+.Subscribe-section {
+    background-image: url("image/subscribeBackground.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Subscribe-content {
+    width: 700px;
+    padding-left: 250px;
+}
+.Subscribe-heading1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+   font-size: 35px;
+}
+.Subscribe-heading2 {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.subscribe-button {
+    background-color: #e2781a;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 130px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.subscribe-button:hover {
+    color: orange;
+    background-color: white;
+}
+.Subscribe-para {
+    font-size: 15px;
+    font-weight: bolder;
+}    
