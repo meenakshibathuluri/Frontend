@@ -3,6 +3,26 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logo {
+   height: 50px;
+   width: 100px;
+}
+.header-items {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.icons {
+    display: flex;
+    gap: 30px;
+}
 .hero-section {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -46,7 +66,7 @@
 
 }
 .sweets-section {
-    background-image: url("images/backGroundImage1.jpg");
+    background-image: url("image/backGroundimage1.jpeg");
     height: 650px;
     background-size: cover;
     background-position: center;
@@ -146,7 +166,7 @@
     cursor: pointer;
 }
 .Subscribe-section {
-    background-image: url("images/subscribeBackground.jpg");
+    background-image: url("image/subscribeBackground.jpg");
     height: 500px;
     background-repeat: no-repeat;
     background-position: center;
@@ -189,3 +209,53 @@
     font-size: 15px;
     font-weight: bolder;
 }    
+.footer-section {
+    background-color: black;
+    color: white;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.footer-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.footer-title {
+    margin-bottom: 20px;
+}
+.footer-items-list {
+    li {
+        list-style: none;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    li:hover {
+        cursor: pointer;
+        color: #e2781a;
+        text-decoration: underline;
+    }
+}
+.send-message {
+     background-color: #e2781a;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 200px;
+    border: none;
+    font-weight: bold;
+}
+.social-media-links {
+    color: #e2781a;
+    fill:#e2781a;
+}
+.phone-icon {
+    i{
+       color: #e2781a;
+       fill:#e2781a;
+       padding-right: 20px;
+    }
+}
