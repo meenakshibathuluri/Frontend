@@ -2,6 +2,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
 .logo {
     height: 100px;
     width: 100vw;
@@ -9,6 +13,10 @@
     padding-top: 25px;
     color: rgba(82, 77, 77, 0.471);
     font-style: italic;
+}
+i {
+    padding-right: 220px;
+    padding-top: 30px;
 }
 .logo:hover {
     cursor: pointer;
