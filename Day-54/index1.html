@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+/*<!DOCTYPE html>
 <html>
 <head>
   <style>
@@ -11,11 +11,61 @@
   </style>
 </head>
 <body>
-
 <div class="box">
   <h3>CSS Borders & Background</h3>
   <p>This box shows border and background properties.</p>
 </div>
 
 </body>
+</html>*/
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <script>
+        function validateForm() {
+            let name = document.myForm.name.value;
+            let email = document.myForm.email.value;
+            let password = document.myForm.password.value;
+            let mobile = document.myForm.mobile.value;
+
+            if (name == "") {
+                alert("Name must be filled out");
+                return false;
+            }
+
+            if (email == "") {
+                alert("Email must be filled out");
+                return false;
+            }
+
+            if (password.length < 6) {
+                alert("Password must be at least 6 characters");
+                return false;
+            }
+
+            if (mobile.length != 10) {
+                alert("Mobile number must be 10 digits");
+                return false;
+            }
+
+            alert("Form submitted successfully");
+            return true;
+        }
+    </script>
+</head>
+<body>
+
+<h2>Registration Form</h2>
+
+<form name="myForm" onsubmit="return validateForm()">
+    Name: <input type="text" name="name"><br><br>
+    Email: <input type="email" name="email"><br><br>
+    Password: <input type="password" name="password"><br><br>
+    Mobile: <input type="text" name="mobile"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
 </html>
+
