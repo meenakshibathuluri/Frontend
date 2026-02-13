@@ -557,9 +557,6 @@
     font-size: 16px;
     outline: none;
 }
-.contact-form textarea {
-    resize: none;
-}
 .contact-form button {
     background: #f7c600;
     border: none;
@@ -569,12 +566,4 @@
 }
 .contact-form button:hover {
     background: #e6b800;
-}
-.credit {
-    margin-top: 25px;
-    font-size: 14px;
-}
-.credit a {
-    color: #000;
-    text-decoration: underline;
 }
