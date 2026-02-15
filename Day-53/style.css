@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.Header {
+.header {
   display: flex;
   justify-content: space-between;
   margin-left: 200px;
