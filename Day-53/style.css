@@ -20,11 +20,11 @@
     font-size: 30px;
   }
 }
-.Header-text {
+.header-text {
   color: rgb(185, 181, 181);
   font-size: 40px;
 }
-.Header-text:hover {
+.header-text:hover {
   cursor: pointer;
 }
 .Hero-section {
