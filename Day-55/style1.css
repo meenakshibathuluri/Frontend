@@ -25,12 +25,12 @@ body {
 th {
     color: brown;
 }
-tr:nth-child(2) {
+/*tr:nth-child(2) {
     background-color: bisque;
 }
 tr:nth-child(even) {
     background-color: blueviolet;
-}
+}*/
 tr:hover {
     cursor: pointer;
     background-color: crimson;
