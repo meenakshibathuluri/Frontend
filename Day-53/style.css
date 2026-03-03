@@ -3,7 +3,7 @@
   padding: 0px;
   box-sizing: border-box;
 }
-.header {
+.Header {
   display: flex;
   justify-content: space-between;
   margin-left: 200px;
@@ -20,11 +20,11 @@
     font-size: 30px;
   }
 }
-.header-text {
+.Header-text {
   color: rgb(185, 181, 181);
   font-size: 40px;
 }
-.header-text:hover {
+.Header-text:hover {
   cursor: pointer;
 }
 .Hero-section {
