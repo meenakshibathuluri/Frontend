@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    height: 900px;
+    width: 600px;
+    background-image: url("images/eid.png");
+    background-position: center;
+    background-size: cover; 
+}
+.wish {
+    font-family: "Lobster Two", sans-serif;
+    font-size: 60px;
+    color: rgba(221, 30, 144, 0.681);
+    padding-top: 200px;
+    padding-left: 150px;
+    padding-bottom: 20px;
+}
+.eid {
+    font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 180px;
+  padding-bottom: 20px;
+  color:cornflowerblue;
+}
+h3 {
+      font-family: "Dancing Script", cursive;
+      padding-left: 100px;
+      padding-right: 100px;
+      color: darkgoldenrod;
+}
+h4 {
+    padding-top: 350px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-left: 180px;
+    color: rgba(53, 23, 249, 0.821);
+}
