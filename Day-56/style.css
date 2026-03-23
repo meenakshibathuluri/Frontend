@@ -19,14 +19,14 @@ body {
 }
 .wish {
     font-family: "Lobster Two", sans-serif;
-    font-size: 60px;
-    color: rgba(221, 30, 144, 0.681);
+    font-size: 70px;
+    color: rgba(221, 30, 145, 0.736);
     padding-top: 200px;
     padding-left: 150px;
     padding-bottom: 20px;
 }
 .eid {
-    font-family: "Great Vibes", cursive;
+  font-family: "Great Vibes", cursive;
   font-weight: 400;
   font-style: normal;
   padding-left: 180px;
@@ -37,12 +37,12 @@ h3 {
       font-family: "Dancing Script", cursive;
       padding-left: 100px;
       padding-right: 100px;
-      color: darkgoldenrod;
+      color: rgb(246, 177, 2);
 }
 h4 {
     padding-top: 190px;
     font-size: 40px;
     font-weight: bolder;
     padding-left: 180px;
-    color: rgba(255, 0, 0, 0.619);
+    color: rgba(255, 0, 0, 0.97);
 }
