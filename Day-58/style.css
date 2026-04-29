@@ -11,8 +11,6 @@ body{
     display:flex;
     height:100vh;
 }
-
-/* Left Side */
 .left{
     width:55%;
     background:#fff;
@@ -21,9 +19,16 @@ body{
 }
 
 .logo{
-    color:#1877f2;
+    background-color:#1877f2;
+    color: white;
     font-size:55px;
     font-weight:bold;
+    height: 60px;
+    width: 60px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+     padding-top: 0px;
+     border-radius: 30px;
 }
 
 .text{
@@ -41,8 +46,6 @@ body{
 .text span{
     color:#1877f2;
 }
-
-/* Right Side */
 .right{
     width:45%;
     display:flex;
