@@ -1,0 +1,121 @@
+* {
+  border: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+.main-container {
+  border: 2px;
+  border-color: black;
+  width: 100vw;
+  height: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+.images-container {
+  height: 100vh;
+  width: 45vw;
+  border: 2px;
+  border-color: black;
+  gap: 50px;
+}
+.insta-text {
+  width: 390px;
+  height: 150px;
+  gap: 10px;
+  margin-left: 150px;
+}
+.image {
+  height: 350px;
+  width: 500px;
+  margin-left: 100px;
+}
+.form-container {
+  height: 100vh;
+  width: 45vw;
+}
+.insta-logo {
+  width: 45vw;
+  height: 100px;
+  background-image: url("./insta\ logo.webp");
+  background-repeat: no-repeat;
+  display: flex;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+.close-friends {
+  background-image: linear-gradient(to right, #ff5c00, #ff0069, #d300c5);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.log-into {
+  padding-right: 190px;
+}
+.mobile-number {
+  border: 1px solid gray;
+  width: 400px;
+  padding: 10px;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.password {
+  border: 1px solid gray;
+  width: 400px;
+  padding: 10px;
+  border-radius: 15px;
+  padding: 15px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  margin-top: 150px;
+  input:hover {
+    height: 60px;
+    border: 2px solid grey;
+  }
+}
+.submiit {
+  width: 400px;
+  padding: 10px;
+  border-radius: 25px;
+  padding: 15px;
+  background-color: #48cae4;
+  color: white;
+  font-weight: bold;
+}
+.forget-password {
+  font-family: "Quicksand", sans-serif;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.login {
+  border: 1px solid gray;
+  width: 400px;
+  padding: 10px;
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  font-weight: bolder;
+  gap: 2px;
+  padding-left: 120px;
+  i {
+    color: blue;
+  }
+}
+.create-button {
+  border: 1px solid #48cae4;
+  width: 400px;
+  padding: 10px;
+  border-radius: 15px;
+  padding: 15px;
+  color: #48cae4;
+}
+.facebook-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 150px;
+}
