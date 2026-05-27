@@ -11,7 +11,7 @@ body {
     justify-content: center;
 }
 .main-container {
-    height: 900px;
+    height: 750px;
     width: 600px;
     background-image: url("images/eid.png");
     background-position: center;
@@ -40,9 +40,9 @@ h3 {
       color: rgb(248, 178, 1);
 }
 h4 {
-    padding-top: 190px;
+    padding-top: 100px;
     font-size: 50px;
     font-weight: bolder;
     padding-left: 180px;
-    color: rgba(255, 0, 0, 0.97);
+    color: rgba(255, 0, 0, 0.762);
 }
